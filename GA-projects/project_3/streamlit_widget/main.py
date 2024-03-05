@@ -3,7 +3,7 @@
 import streamlit as st
 import scrape
 import eda
-import lr_model
+import mnb_model
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
@@ -17,7 +17,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 def genwc(df, nos=1):
     eda_df = eda.eda_mod(df, nos)
     # Run prediction function
-    pred = lr_model.preds(eda_df)
+    pred = mnb_model.preds(eda_df)
     # Sum the word occurrences and sort by frequency
     word_counts = eda_df.sum().sort_values(ascending=False)
     # create & generate the WordCloud object
