@@ -30,7 +30,7 @@ A Streamlit app was built to predict bed occupancies for NUH within a 3-month pe
 
 Developed a classification model that predicts whether a Reddit post supports or opposes Generative AI art.
 
-Two subreddits were identified where posts were mostly supportive ([**r\DefendingAIArt**](https://www.reddit.com/r/DefendingAIArt)) or opposing ([**r\ArtistHate**](https://www.reddit.com/r/ArtistHate)) Generative AI art. The posts from these subreddits were scraped using Reddit's API and were used to train multiple machine learning models using **Scikit-Learn**. The Multinomial Naive Bayes model was selected by comparing key metrics for each model. This model was implemented in a Streamlit app, to compare the sentiments of 2 different Reddit threads towards Generative AI art.
+Two subreddits were identified where posts were mostly supportive _([r\DefendingAIArt](https://www.reddit.com/r/DefendingAIArt))_ or opposing _([r\ArtistHate](https://www.reddit.com/r/ArtistHate))_ Generative AI art. The posts from these subreddits were scraped using Reddit's API and were used to train multiple machine learning models using **Scikit-Learn**. The Multinomial Naive Bayes model was selected by comparing key metrics for each model. This model was implemented in a Streamlit app, to compare the sentiments of 2 different Reddit threads towards Generative AI art.
 
 ### Project 2: Kaggle Challenge: Singapore Housing Data
 Developed a prediction model for the resale cost of a HDB unit as part of a [Kaggle challenge](https://www.kaggle.com/competitions/dsi-sg-project-2-regression-challenge-hdb-price/overview).
@@ -42,4 +42,5 @@ Analysed trends in Singapore weather and their relationships with the number of 
 
 Using data visualisation techniques in **Python**, dengue cases were found to spike approximately 1 month after rainfall and temperature spikes. With this information, the release of mosquitoes by NEA can be optimised by coinciding the release with predicted seasons of higher rainfall.
 
-- [Linkedin Profile](https://www.linkedin.com/in/muhammad-faaiz-khan-bin-abdul-halil)
+___
+### [Linkedin Profile](https://www.linkedin.com/in/muhammad-faaiz-khan-bin-abdul-halil)
