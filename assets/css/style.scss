@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+footer {
+    width:270px;
+    float:left;
+    position:fixed;
+    bottom:50px;
+    display: none; 
+  }
