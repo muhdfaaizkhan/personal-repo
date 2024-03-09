@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Science Project Portfolio
 
 #### Technical Skills: Python, Scikit-Learn, Keras/TensorFlow, PyTorch
 
